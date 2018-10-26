@@ -53,6 +53,7 @@ TemplateObjectDirectory: OtherObjectDirectory
 	mkdir -p $(TEMPLATE_OBJDIR)src/
 	mkdir -p $(TEMPLATE_OBJDIR)lib/
 	mkdir -p $(TEMPLATE_OBJDIR)lib/inc/
+	@echo "- - - - Template ObjectFile directory created - - - -"
 
 # Clean
 # Removes all object directories from Template and Other
