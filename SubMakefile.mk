@@ -11,7 +11,7 @@ include $(TEMPLATE_PATH)path/to/Other.mk
 TEMPLATE_MAIN_OBJ := $(TEMPLATE_PATH)Template.o
 
 # Flags for compiling and linking
-TEMPLATE_CFLAGS := -std=c++11 -O3
+TEMPLATE_CFLAGS := -std=c++17 -O3
 TEMPLATE_LFLAGS :=
 
 # This is where the TEMPLATE_SUB_OBJS will be stored so your work doesn't

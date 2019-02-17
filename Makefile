@@ -14,7 +14,7 @@
 # compiler
 CC := #gcc
 # compiler flags
-TEMPLATE_CFLAGS := #-std=c++11
+TEMPLATE_CFLAGS := #-std=c++17
 # linker flags
 TEMPLATE_LFLAGS := #-lm
 # executable
